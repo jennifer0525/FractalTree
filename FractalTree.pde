@@ -23,7 +23,7 @@ public void draw()
   strokeWeight(4);
   stroke(80,40,0);  // color
   line(320,480,320,380);
-  strokeWeight(1);
+  strokeWeight(0);
   stroke(r,g,b);
   drawBranches(320,380,100,3*Math.PI/2);
 } 
